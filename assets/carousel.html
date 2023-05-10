@@ -1,0 +1,40 @@
+<style>
+  #slideshow {
+    text-align: center;
+    overflow: hidden;
+    height: 200px;
+    width: 728px;
+    margin: 0 auto;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 30s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+  
+  }
+  .size {
+      width:100%;
+  }
+  </style>
+  <div id="slideshow">
+    <div class="slide-wrapper">
+      <div class="slide"><img class="size" src="img/box.png"></div>
+      <div class="slide"><img class="size" src="img/cle.png"></div>
+      <div class="slide"><img class="size" src="img/sim.png"></div>
+    </div>
+  </div>
+  
